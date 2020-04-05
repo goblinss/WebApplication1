@@ -1,0 +1,8 @@
+﻿@model Foo
+@{
+    ViewData["Title"] = "Home Page";
+}
+@*@Html.DropDownListFor(m => m.MyProperty, (SelectList)ViewBag.Data)*@
+@Html.DisplayFor(m => m.MyProperty, (SelectList)ViewBag.Data)
+
+
